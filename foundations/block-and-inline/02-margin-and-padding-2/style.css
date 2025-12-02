@@ -3,6 +3,12 @@ body {
   font-family: sans-serif;
 }
 
+/*Div is a tag so its just the name without "." (class) or "#" (id) */
+div {
+  padding: 12px;
+  margin: 8px auto;
+}
+
 .card {
   width: 400px;
   background: #fff;
@@ -11,6 +17,8 @@ body {
 
 .title {
   background: #e3f4ff;
+  padding: 8px;
+  font-size: 16px;
 }
 
 .content {
@@ -19,9 +27,13 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 8px 16px;
+  margin: 8px auto;
 }
